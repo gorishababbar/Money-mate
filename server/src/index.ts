@@ -9,8 +9,7 @@ const port = process.env.PORT || 3010;
 app.use(express.json());
 app.use(cors());
 
-const mongoURI: string =
-  "mongodb+srv://gorisha_babbar:JJG6H3VRzMSEYGI2@personalfinancetracker.vwjj0bg.mongodb.net/PersonalFinanceTracker?retryWrites=true&w=majority";
+const mongoURI: string = //mongo db atlas key
 
 mongoose
   .connect(mongoURI)
